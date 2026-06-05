@@ -1,0 +1,47 @@
+sources:
+  einstein:
+    - id: einstein_relativity_1916
+      title: Relativity: The Special and General Theory
+      author: Albert Einstein
+      license: Public domain
+      url: https://www.gutenberg.org/files/5001/5001-0.txt
+      local_path: data/corpus/raw/einstein/relativity.txt
+      timeline_start: 1905
+      timeline_end: 1916
+  newton:
+    - id: newton_principia
+      title: The Mathematical Principles of Natural Philosophy
+      author: Isaac Newton
+      license: Public domain
+      url: https://www.gutenberg.org/files/28233/28233-0.txt
+      local_path: data/corpus/raw/newton/principia.txt
+      timeline_start: 1687
+      timeline_end: 1727
+  feynman:
+    - id: feynman_public_lecture_note
+      title: Public-domain placeholder manifest entry for approved Feynman corpus
+      author: Richard Feynman
+      license: Requires curator approval
+      url: ""
+      local_path: data/corpus/raw/feynman/approved_source.txt
+      timeline_start: 1942
+      timeline_end: 1988
+  tesla:
+    - id: tesla_inventions
+      title: Experiments with Alternate Currents of High Potential and High Frequency
+      author: Nikola Tesla
+      license: Public domain
+      url: https://www.gutenberg.org/files/13476/13476-0.txt
+      local_path: data/corpus/raw/tesla/experiments.txt
+      timeline_start: 1891
+      timeline_end: 1943
+  curie:
+    - id: curie_radioactive_substances
+      title: Radioactive Substances
+      author: Marie Curie
+      license: Public domain
+      url: https://www.gutenberg.org/files/69619/69619-0.txt
+      local_path: data/corpus/raw/curie/radioactive_substances.txt
+      timeline_start: 1898
+      timeline_end: 1934
+

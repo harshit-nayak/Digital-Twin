@@ -1,0 +1,239 @@
+/* ═══════════════════════════════════════════════════════════════
+   Digital Twin Physics Academy — Global Styles
+   Design: Dark chalkboard aesthetic with chalk texture
+═══════════════════════════════════════════════════════════════ */
+
+/* ── CSS Variables ─────────────────────────────────────────── */
+:root {
+  /* Chalkboard palette */
+  --chalk-green:    #1a2e1a;
+  --chalk-green-2:  #1f3520;
+  --chalk-green-3:  #243d24;
+  --chalk-line:     rgba(255, 255, 255, 0.06);
+
+  /* Chalk text colors */
+  --chalk-white:    #f0ede4;
+  --chalk-cream:    #e8e0d0;
+  --chalk-yellow:   #f5e86e;
+  --chalk-blue:     #a8c4e0;
+  --chalk-pink:     #e8a0a0;
+  --chalk-muted:    rgba(240, 237, 228, 0.45);
+  --chalk-faint:    rgba(240, 237, 228, 0.25);
+
+  /* UI elements */
+  --sidebar-bg:     rgba(10, 20, 10, 0.92);
+  --sidebar-border: rgba(255, 255, 255, 0.08);
+  --card-bg:        rgba(255, 255, 255, 0.04);
+  --card-hover:     rgba(255, 255, 255, 0.08);
+  --input-bg:       rgba(0, 0, 0, 0.35);
+  --accent:         #7ab87a;
+  --accent-glow:    rgba(122, 184, 122, 0.3);
+
+  /* Scientist accent colors */
+  --einstein-gold:  #d4a843;
+  --einstein-warm:  rgba(212, 168, 67, 0.15);
+
+  /* Typography */
+  --font-chalk:     'Caveat', cursive;
+  --font-period:    'IM Fell English', serif;
+  --font-ui:        'Inter', -apple-system, sans-serif;
+
+  /* Spacing */
+  --sidebar-w:      280px;
+  --topbar-h:       56px;
+
+  /* Transitions */
+  --trans-fast:     150ms ease;
+  --trans-med:      250ms ease;
+  --trans-slow:     400ms ease;
+}
+
+/* ── Reset ─────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font-ui);
+  background: var(--chalk-green);
+  color: var(--chalk-white);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Chalkboard Texture Overlay ────────────────────────────── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 28px,
+      var(--chalk-line) 28px,
+      var(--chalk-line) 29px
+    );
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+/* ── Scrollbars ────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.25); }
+
+/* ── Layout ────────────────────────────────────────────────── */
+.app-root {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Chalk Text Styles ─────────────────────────────────────── */
+.chalk-text {
+  font-family: var(--font-chalk);
+  color: var(--chalk-white);
+  text-shadow:
+    0 0 8px rgba(240, 237, 228, 0.3),
+    1px 1px 0 rgba(0,0,0,0.3);
+  letter-spacing: 0.02em;
+}
+
+.chalk-heading {
+  font-family: var(--font-chalk);
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--chalk-white);
+  text-shadow:
+    0 0 20px rgba(240, 237, 228, 0.4),
+    2px 2px 0 rgba(0,0,0,0.4);
+}
+
+/* ── Buttons ───────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all var(--trans-fast);
+}
+
+.btn-chalk {
+  background: rgba(240, 237, 228, 0.1);
+  color: var(--chalk-white);
+  border: 1px solid rgba(240, 237, 228, 0.2);
+}
+.btn-chalk:hover {
+  background: rgba(240, 237, 228, 0.18);
+  border-color: rgba(240, 237, 228, 0.35);
+}
+
+.btn-accent {
+  background: var(--accent);
+  color: #0a180a;
+  font-weight: 600;
+}
+.btn-accent:hover {
+  background: #8acc8a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px var(--accent-glow);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--chalk-muted);
+  border: 1px solid transparent;
+}
+.btn-ghost:hover {
+  color: var(--chalk-white);
+  border-color: rgba(255,255,255,0.15);
+}
+
+/* ── Cards ─────────────────────────────────────────────────── */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--sidebar-border);
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  transition: all var(--trans-med);
+}
+.card:hover { background: var(--card-hover); }
+
+/* ── Tags / Badges ─────────────────────────────────────────── */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.tag-gold   { background: rgba(212,168,67,0.2); color: #d4a843; border: 1px solid rgba(212,168,67,0.3); }
+.tag-blue   { background: rgba(168,196,224,0.15); color: var(--chalk-blue); border: 1px solid rgba(168,196,224,0.25); }
+.tag-green  { background: rgba(122,184,122,0.15); color: var(--accent); border: 1px solid rgba(122,184,122,0.25); }
+.tag-muted  { background: rgba(255,255,255,0.06); color: var(--chalk-muted); border: 1px solid rgba(255,255,255,0.1); }
+
+/* ── Importance Bar ────────────────────────────────────────── */
+.importance-bar {
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(255,255,255,0.1);
+  overflow: hidden;
+}
+.importance-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--accent), var(--chalk-yellow));
+  transition: width 0.5s ease;
+}
+
+/* ── Divider ───────────────────────────────────────────────── */
+.divider {
+  height: 1px;
+  background: var(--sidebar-border);
+  margin: 8px 0;
+}
+
+/* ── Spinner ───────────────────────────────────────────────── */
+.spinner {
+  width: 18px; height: 18px;
+  border: 2px solid rgba(255,255,255,0.15);
+  border-top-color: var(--chalk-white);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  display: inline-block;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Fade in ───────────────────────────────────────────────── */
+.fade-in {
+  animation: fadeIn 0.4s ease;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Emotion colors ────────────────────────────────────────── */
+.emotion-EXCITED      { color: #f5e86e; }
+.emotion-CONTEMPLATIVE{ color: #a8c4e0; }
+.emotion-AMUSED       { color: #a8e0a8; }
+.emotion-SKEPTICAL    { color: #e0c0a8; }
+.emotion-SAD          { color: #b0b8d0; }
+.emotion-NEUTRAL      { color: var(--chalk-cream); }
+.emotion-PASSIONATE   { color: #e8a0a0; }

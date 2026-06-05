@@ -1,0 +1,874 @@
+On the Electrodynamics of Moving Bodies
+
+
+					Albert Einstein
+
+
+
+
+
+1920
+
+
+
+
+
+Exported from Wikisource on June 4, 2026
+
+
+
+
+
+INTRODUCTION.
+
+
+
+
+It is well known that if we attempt to apply Maxwell's electrodynamics, as conceived at the present time, to moving bodies, we are led to assymetry which does not agree with observed phenomena. Let us think of the mutual action between a magnet and a conductor. The observed phenomena in this case depend only on the relative motion of the conductor and the magnet, while according to the usual conception, a distinction must be made between the cases where the one or the other of the bodies is in motion. If, for example, the magnet moves and the conductor is at rest, then an electric field of certain energy-value is produced in the neighbourhood of the magnet, which excites a current in those parts of the field where a conductor exists. But if the magnet be at rest and the conductor be set in motion, no electric field is produced in the neighbourhood of the magnet, but an electromotive force which corresponds to no energy in itself is produced in the conductor ; this causes an electric current of the same magnitude and the same career as the electric force, it being of course assumed that the relative motion in both of these cases is the same.
+
+
+
+2. Examples of a similar kind such as the unsuccessful attempt to substantiate the motion of the earth relative to the "Light-medium" lead us to the supposition that not only in mechanics, but also in electrodynamics, no properties of observed facts correspond to a concept of absolute rest ; but that for all coordinate systems for which the mechanical equations hold, the equivalent electrodynamical and optical equations hold also, as has already been shown for magnitudes of the first order. In the following we make these assumptions (which we shall subsequently call the Principle of Relativity) and introduce the further assumption, —an assumption which is at the first sight quite irreconcilable with the former one— that light is propagated in vacant space, with a velocity c which is independent of the nature of motion of the emitting body. These two assumptions are quite sufficient to give us a simple and consistent theory of electrodynamics of moving bodies on the basis of the Maxwellian theory for bodies at rest. The introduction of a "Lightäther" will be proved to be superfluous, for according to the conceptions which will be developed, we shall introduce neither a space absolutely at rest, and endowed with special properties, nor shall we associate a velocity-vector with a point in which electro-magnetic processes take place.
+
+3. Like every other theory in electrodynamics, the theory is based on the kinematics of rigid bodies; in the enunciation of every theory, we have to do with relations between rigid bodies (co-ordinate system), clocks, and electromagnetic processes. An insufficient consideration of these circumstances is the cause of difficulties with which the electrodynamics of moving bodies have to fight at present.
+
+
+
+
+
+I. — KINEMATICAL PORTION.
+
+
+§ 1. Definition of Synchronism.
+
+
+
+
+Let us have a co-ordinate system, in which the Newtonian equations hold. For distinguishing this system from another which will be introduced hereafter, we shall always call it "the stationary system."
+
+If a material point be at rest in this system, then its position in this system can be found out by a measuring rod, and can be expressed by the methods of Euclidean Geometry, or in Cartesian co-ordinates.
+
+If we wish to describe the motion of a material point, the values of its coordinates must be expressed as functions of time. It is always to be borne in mind that such a mathematical definition has a physical sense, only when we have a clear notion of what is meant by time. We have to take into consideration the fact that those of our conceptions, in which time plays a part, are always conceptions of synchronism. For example, we say that a train arrives here at 7 o'clock ; this means that the exact pointing of the little hand of my watch to 7, and the arrival of the train are synchronous events.
+
+It may appear that all difficulties connected with the definition of time can be removed when in place of time, we substitute the position of the little hand of my watch. Such a definition is in fact sufficient, when it is required to define time exclusively for the place at which the clock is stationed. But the definition is not sufficient when it is required to connect by time events taking place at different stations, —or what amounts to the same thing,— to estimate by means of time (zeitlich werten) the occurrence of events, which take place at stations distant from the clock.
+
+
+
+Now with regard to this attempt; —the time-estimation of events, we can satisfy ourselves in the following manner. Suppose an observer —who is stationed at the origin of coordinates with the clock— associates a ray of light which comes to him through space, and gives testimony to the event of which the time is to be estimated, — with the corresponding position of the hands of the clock. But such an association has this defect, —it depends on the position of the observer provided with the clock, as we know by experience. We can attain to a more practicable result by the following treatment.
+
+If an observer be stationed at A with a clock, he can estimate the time of events occurring in the immediate neighbourhood of A, by looking for the position of the hands of the clock, which are synchronous with the event. If an observer be stationed at B with a clock, —we should add that the clock is of the same nature as the one at A,— he can estimate the time of events occurring about B. But without further premises, it is not possible to compare, as far as time is concerned, the events at B with the events at A. We have hitherto an A-time, and a B-time, but no time common to A and B. This last time (i.e., common time) can be defined, if we establish by definition that the time which light requires in travelling from A to B is equivalent to the time which light requires in travelling from B to A. For example, a ray of light proceeds from A at A-time tA towards B, arrives and is reflected from B at B-time tB, and returns to A at A-time t'A. According to the definition, both clocks are synchronous, if
+
+.
+
+
+
+We assume that this definition of synchronism is possible without involving any inconsistency, for any number of points, therefore the following relations hold :—
+
+1. If the clock at B be synchronous with the clock at A, then the clock at A is synchronous with the clock at B.
+
+2. If the clock at A as well as the clock at B are both synchronous with the clock at C, then the clocks at A and B are synchronous.
+
+Thus with the help of certain physical experiences, we have established what we understand when we speak of clocks at rest at different stations, and synchronous with one another ; and thereby we have arrived at a definition of synchronism and time.
+
+In accordance with experience we shall assume that the magnitude
+
+, where c is a universal constant.
+
+
+
+We have defined time essentially with a clock at rest in a stationary system. On account of its adaptability to the stationary system, we call the time defined in this way as "time of the stationary system."
+
+
+
+
+
+§ 2. On the Relativity of Length and Time.
+
+
+
+
+The following reflections are based on the Principle of Relativity and on the Principle of Constancy of the velocity of light, both of which we define in the following way :—
+
+1. The laws according to which the nature of physical systems alter are independent of the manner in which these changes are referred to two co-ordinate systems which have a uniform translatory motion relative to each other.
+
+2. Every ray of light moves in the "stationary co-ordinate system" with the same velocity c, the velocity being independent of the condition whether this ray of light is emitted by a body at rest or in motion. Therefore
+
+
+
+where, by 'interval of time,' we mean time as defined in § 1.
+
+Let us have a rigid rod at rest ; this has a length l, when measured by a measuring rod at rest ; we suppose that the axis of the rod is laid along the X-axis of the system at rest, and then a uniform velocity v, parallel to the axis of X, is imparted to it. Let us now enquire about the length of the moving rod ; this can be obtained by either of these operations.—
+
+(a) The observer provided with the measuring rod moves along with the rod to be measured, and measures by direct superposition the length of the rod : — just as if the observer, the measuring rod, and the rod to be measured were at rest.
+
+(b) The observer finds out, by means of clocks placed in a system at rest (the clocks being synchronous as defined in § 1), the points of this system where the ends of the rod to be measured occur at a particular time t. The distance between these two points, measured by the previously used measuring rod, this time it being at rest, is a length, which we may call the "length of the rod."
+
+According to the Principle of Relativity, the length found out by the operation a), which we may call "the length of the rod in the moving system" is equal to the length l of the rod in the stationary system.
+
+The length which is found out by the second method, may be called 'the length of the moving rod measured from the stationary system'. This length is to be estimated on the basis of our principle, and we shall find it to be different from l.
+
+In the generally recognised kinematics, we silently assume that the lengths defined by these two operations are equal, or in other words, that at an epoch of time t, a moving rigid body is geometrically replaceable by the same body, which can replace it in the condition of rest.
+
+
+
+
+
+Relativity of Time.
+
+
+
+
+Let us suppose that the two clocks synchronous with the clocks in the system at rest are brought to the ends A, and B of a rod, i.e., the time of the clocks correspond to the time of the stationary system at the points where they happen to arrive ; these clocks are therefore synchronous in the stationary system.
+
+We further imagine that there are two observers at the two watches, and moving with them, and that these observers apply the criterion for synchronism to the two clocks. At the time tA, a ray of light goes out from A, is reflected from B at the time tB, and arrives back at A at time t'A. Taking into consideration the principle of constancy of the velocity of light, we have
+
+,
+
+and
+
+,
+
+where is the length of the moving rod, measured in the stationary system. Therefore the observers stationed with the watches will not find the clocks synchronous, though the observer in the stationary system must declare the clocks to be synchronous. We therefore see that we can attach no absolute significance to the concept of synchronism ; but two events which are synchronous when viewed from one system, will not be synchronous when viewed from a system moving relatively to this system.
+
+
+
+
+
+§ 3. Theory of Co-ordinate and Time-Transformation from a stationary system to a system which moves relatively to this with uniform velocity.
+
+
+Let there be given, in the stationary system two co-ordinate systems, i.e., two series of three mutually perpendicular lines issuing from a point. Let the X-axes of each coincide with one another, and the Y and Z-axes be parallel. Let a rigid measuring rod, and a number of clocks be given to each of the systems, and let the rods and clocks in each be exactly alike each other.
+
+Let the initial point of one of the systems (k) have a constant velocity in the direction of the X-axis of the other which is stationary system K, the motion being also communicated to the rods and clocks in the system (k). Any time t of the stationary system K corresponds to a definite position of the axes of the moving system, which are always parallel to the axes of the stationary system. By t, we always mean the time in the stationary system.
+
+We suppose that the space is measured by the stationary measuring rod placed in the stationary system, as well as by the moving measuring rod placed in the moving system, and we thus obtain the co-ordinates (x, y, z) for the stationary system, and (ξ, η, ζ) for the moving system. Let the time t be determined for each point of the stationary system (which are provided with clocks) by means of the clocks which are placed in the stationary system, with the help of light-signals as described in § 1. Let also the time τ of the moving system be determined for each point of the moving system (in which there are clocks which are at rest relative to the moving system), by means of the method of light signals between these points (in which there are clocks) in the manner described in § 1.
+
+To every value of (x, y, z, t) which fully determines the position and time of an event in the stationary system, there correspond a system of values (ξ, η, ζ, τ) ; now the problem is to find out the system of equations connecting these magnitudes.
+
+Primarily it is clear that on account of the property of homogeneity which we ascribe to time and space, the equations must be linear.
+
+If we put x'=x-vt, then it is clear that at a point relatively at rest in the system K, we have a system of values (x' y z) which are independent of time. Now let us find out τ as a function of (x',y,z,t). For this purpose we have to express in equations the fact that τ is not other than the time given by the clocks which are at rest in the system k which must be made synchronous in the manner described in § 1.
+
+Let a ray of light be sent at time from the origin of the system k along the X-axis towards x' and let it be reflected from that place at time towards the origin of moving co-ordinates and let it arrive there at time ; then we must have
+
+
+
+If we now introduce the condition that is a function of co-ordinates, and apply the principle of constancy of the velocity of light in the stationary system, we have
+
+
+
+
+
+.
+
+
+
+It is to be noticed that instead of the origin of coordinates, we could select some other point as the exit point for rays of light, and therefore the above equation holds for all values of (x', y, z, t).
+
+A similar conception, being applied to the y- and z-axis gives us, when we take into consideration the fact that light when viewed from the stationary system, is always propagated along those axes with the velocity , we have the questions:
+
+.
+
+
+
+From these equations it follows that is a linear function of x' and t. From equations (1) we obtain
+
+,
+
+
+
+where is an unknown function of v.
+
+With the help of these results it is easy to obtain the magnitudes (ξ, η, ζ), if we express by means of equations the fact that light, when measured in the moving system is always propagated with the constant velocity c (as the principle of constancy of light velocity in conjunction with the principle of relativity requires). For a time , if the ray is sent in the direction of increasing ξ, we have
+
+, i.e. .
+
+
+
+Now the ray of light moves relative to the origin of k with a velocity c-v, measured in the stationary system ; therefore we have
+
+.
+
+
+
+Substituting these values of t in the equation for ξ, we obtain
+
+.
+
+
+
+In an analogous manner, we obtain by considering the ray of light which moves along the y-axis,
+
+,
+
+
+
+where .
+
+Therefore .
+
+If for x', we substitute its value x—tv, we obtain
+
+,
+
+
+
+,
+
+
+
+,
+
+
+
+,
+
+
+
+where , and is a function of v.
+
+
+
+If we make no assumption about the initial position of the moving system and about the null-point of t, then an additive constant is to be added to the right hand side.
+
+We have now to show, that every ray of light moves in the moving system with a velocity c (when measured in the moving system), in case, as we have actually assumed, c is also the velocity in the stationary system ; for we have not as yet adduced any proof in support of the assumption that the principle of relativity is reconcilable with the principle of constant light-velocity.
+
+At a time let a spherical wave be sent out from the common origin of the two systems of co-ordinates, and let it spread with a velocity c in the system K. If (x, y, z), be a point reached by the wave, we have
+
+.
+
+
+
+with the aid of our transformation-equations, let us transform this equation, and we obtain by a simple calculation,
+
+.
+
+
+
+Therefore the wave is propagated in the moving system with the same velocity c, and as a spherical wave. Therefore we show that the two principles are mutually reconcilable.
+
+In the transformations we have got an undetermined function , and we now proceed to find it out.
+
+Let us introduce for this purpose a third co-ordinate system k', which is set in motion relative to the system k, the motion being parallel to the -axis. Let the velocity of the origin be (—v). At the time , all the initial co-ordinate points coincide, and for , the time t' of the system k' = 0. We shall say that (x', y' z' t') are the co-ordinates measured in the system k', then by a two-fold application of the transformation-equations, we obtain
+
+,
+
+, etc.
+
+Since the relations between (x', y', z', t'), and (x, y, z, t) do not contain time explicitly, therefore K and k' are relatively at rest.
+
+It appears that the systems K and k' are identical.
+
+,
+
+Let us now turn our attention to the part of the y-axis between (), and (). Let this piece of the y-axis be covered with a rod moving with the velocity v relative to the system K and perpendicular to its axis ;—the ends of the rod having therefore the co-ordinates
+
+
+
+Therefore the length of the rod measured in the system K is . For the system moving with velocity (-v), we have on grounds of symmetry,
+
+
+
+
+
+§ 4. The physical significance of the equations obtained concerning moving rigid bodies and moving clocks.
+
+
+
+
+Let us consider a rigid sphere (i.e., one having a spherical figure when tested in the stationary system) of radius R which is at rest relative to the system (K), and whose centre coincides with the origin of K then the equation of the surface of this sphere, which is moving with a velocity v relative to K, is
+
+
+
+
+
+At time t = 0 the equation is expressed by means of (x, y, z, t,) as
+
+.
+
+A rigid body which has the figure of a sphere when measured in the moving system, has therefore in the moving condition — when considered from the stationary system, the figure of a rotational ellipsoid with semi-axes
+
+.
+
+
+
+Therefore the y and z dimensions of the sphere (therefore of any figure also) do not appear to be modified by the motion, but the x dimension is shortened in the ratio ; the shortening is the larger, the larger is v. For v = c, all moving bodies, when considered from a stationary system shrink into planes. For a velocity larger than the velocity of light, our propositions become meaningless ; in our theory c plays the part of infinite velocity.
+
+It is clear that similar results hold about stationary bodies in a stationary system when considered from a uniformly moving system.
+
+Let us now consider that a clock which is lying at rest in the stationary system gives the time t, and lying at rest relative to the moving system is capable of giving the time τ ; suppose it to be placed at the origin of the moving system k, and to be so arranged that it gives the time τ. How much does the clock gain, when viewed from the stationary system K? We have,
+
+, and ,
+
+.
+
+Therefore the clock loses by an amount per second of motion, to the second order of approximation.
+
+From this, the following peculiar consequence follows. Suppose at two points A and B of the stationary system two clocks are given which are synchronous in the sense explained in § 3 when viewed from the stationary system. Suppose the clock at A to be set in motion in the line joining it with B, then after the arrival of the clock at B, they will no longer be found synchronous, but the clock which was set in motion from A will lag behind the clock which had been all along at B by an amount , where t is the time required for the journey.
+
+
+
+We see forthwith that the result holds also when the clock moves from A to B by a polygonal line, and also when A and B coincide.
+
+If we assume that the result obtained for a polygonal line holds also for a curved line, we obtain the following law. If at A, there be two synchronous clocks, and if we set in motion one of them with a constant velocity along a closed curve till it comes back to A, the journey being completed in t-seconds, then after arrival, the last mentioned clock will be behind the stationary one by seconds. From this, we conclude that a clock placed at the equator must be slower by a very small amount than a similarly constructed clock which is placed at the pole, all other conditions being identical.
+
+
+
+
+
+§ 5. Addition-Theorem of Velocities.
+
+
+
+
+Let a point move in the system k (which moves with velocity v along the x-axis of the system K) according to the equation
+
+,
+
+where and are constants.
+
+It is required to find out the motion of the point relative to the system K. If we now introduce the system of equations in § 3 in the equation of motion of the point, we obtain
+
+.
+
+The law of parallelogram of velocities hold up to the first order of approximation. We can put
+
+,
+
+and
+
+
+
+i.e., is put equal to the angle between the velocities v, and w. Then we have—
+
+
+
+It should be noticed that v and w enter into the expression for velocity symmetrically. If w has the direction of the ξ-axis of the moving system,
+
+
+
+From this equation, we see that by combining two velocities, each of which is smaller than c, we obtain a velocity which is always smaller than c. If we put , and where and are each smaller than c,
+
+.
+
+It is also clear that the velocity of light c cannot be altered by adding to it a velocity smaller than c. For this case,
+
+
+
+We have obtained the formula for U for the case when v and w have the same direction ; it can also be obtained by combining two transformations according to section § 3. If in addition to the systems K, and k, we introduce the system k', of which the initial point moves parallel to the ξ-axis with velocity w, then between the magnitudes, x, y, z, t and the corresponding magnitudes of k', we obtain a system of equations, which differ from the equations in §3, only in the respect that in place of v, we shall have to write,
+
+
+
+We see that such a parallel transformation forms a group.
+
+We have deduced the kinematics corresponding to our two fundamental principles for the laws necessary for us, and we shall now pass over to their application in electrodynamics.
+
+
+
+
+
+II. — ELECTRODYNAMICAL PART.
+
+
+§ 6. Transformation of Maxwell's equations for Pure Vacuum.
+
+
+On the nature of the Electromotive Force caused by motion in a magnetic field.
+
+
+
+
+The Maxwell-Hertz equations for pure vacuum may hold for the stationary system K, so that
+
+,
+
+and
+
+
+
+
+
+(1)
+
+
+
+where [X, Y, Z] are the components of the electric force, L, M, N are the components of the magnetic force.
+
+If we apply the transformations in § 3 to these equations, and if we refer the electromagnetic processes to the co-ordinate system moving with velocity v, we obtain,
+
+
+
+
+
+and
+
+
+
+
+
+(2)
+
+
+
+where
+
+
+
+The principle of Relativity requires that the Maxwell-Hertzian equations for pure vacuum shall hold also for the system k, if they hold for the system K, i.e., for the vectors of the electric and magnetic forces acting upon electric and magnetic masses in the moving system k, which are defined by their pondermotive reaction, the same equations hold, ... i.e. ...
+
+
+
+, .
+
+(3)
+
+
+
+Clearly both the systems of equations (2) and (3) developed for the system k shall express the same things, for both of these systems are equivalent to the Maxwell-Hertzian equations for the system K. Since both the systems of equations (2) and (3) agree up to the symbols representing the vectors, it follows that the functions occurring at corresponding places will agree up to a certain factor , which depends only on v, and is independent of . Hence the relations,
+
+
+
+, .
+
+
+
+
+
+Then by reasoning similar to that followed in §(3), it can be shown that .
+
+
+
+.
+
+
+
+
+
+For the interpretation of these equations, we make the following remarks. Let us have a point-mass of electricity which is of magnitude unity in the stationary system K, i.e., it exerts a unit force upon a similar quantity placed at a distance of 1 cm. If this quantity of electricity be at rest in the stationary system, then the force acting upon it is equivalent to the vector of electric force. But if the quantity of electricity be at rest relative to the moving system (at least for the moment considered), then the force acting upon it, and measured in the moving system is equivalent to the vector . The first three of equations (1), (2), (3), can be expressed in the following way :—
+
+1. If a point-mass of electric unit pole moves in an electro-magnetic field, then besides the electric force, an electromotive force acts upon it, which, neglecting the numbers involving the second and higher powers of v/c, is equivalent to the vector-product of the velocity vector, and the magnetic force divided by the velocity of light (Old mode of expression).
+
+2. If a point-mass of electric unit pole moves in an electro-magnetic field, then the force acting upon it is equivalent to the electric force existing at the position of the unit pole, which we obtain by the transformation of the field to a co-ordinate system which is at rest relative to the electric unit pole [New mode of expression].
+
+Similar theorems hold with reference to the magnetic force. We see that in the theory developed the electromagnetic force plays the part of an auxiliary concept, which owes its introduction in theory to the circumstance that the electric and magnetic forces possess no existence independent of the nature of motion of the co-ordinate system.
+
+
+
+It is further clear that the assymetry mentioned in the introduction which occurs when we treat of the current excited by the relative motion of a magnet and a conductor disappears. Also the question about the seat of electromagnetic energy is seen to be without any meaning.
+
+
+
+
+
+§ 7. Theory of Döppler's Principle and Aberration.
+
+
+
+
+In the system K, at a great distance from the origin of co-ordinates, let there be a source of electrodynamic waves, which is represented with sufficient approximation in a part of space not containing the origin, by the equations :—
+
+
+
+Here and are the vectors which determine the amplitudes of the train of waves, are the direction-cosines of the wave-normal.
+
+Let us now ask ourselves about the composition of these waves, when they are investigated by an observer at rest in a moving medium k :— By applying the equations of transformation obtained in §6 for the electric and magnetic forces, and the equations of transformation obtained in § 3 for the co-ordinates, and time, we obtain immediately :—
+
+
+
+,
+
+
+
+
+
+where
+
+.
+
+From the equation for it follows :— If an observer moves with the velocity v relative to an infinitely distant source of light emitting waves of frequency , in such a manner that the line joining the source of light and the observer makes an angle of with the velocity of the observer referred to a system of co-ordinates which is stationary with regard to the source, then the frequency which is perceived by the observer is represented by the formula
+
+.
+
+This is Doppler's principle for any velocity. If then the equation takes the simple form
+
+.
+
+We see that —contrary to the usual conception— , for .
+
+If =angle between the wave-normal (direction of the ray) in the moving system, and the line of motion of the observer, the equation for l' takes the form
+
+.
+
+This equation expresses the law of observation in its most general form. If , the equation takes the simple form
+
+.
+
+
+
+We have still to investigate the amplitude of the waves, which occur in these equations. If A and A' be the amplitudes in the stationary and the moving systems (either electrical or magnetic), we have
+
+.
+
+
+
+If , this reduces to the simple form
+
+.
+
+
+
+From these equations, it appears that for an observer, which moves with the velocity c towards the source of light, the source should appear infinitely intense.
+
+
+
+
+
+§ 8. Transformation of the Energy of the Rays of Light. Theory of the Radiation-pressure on a perfect mirror.
+
+
+
+
+Since is equal to the energy of light per unit volume, we have to regard as the energy of light in the moving system. would therefore denote the ratio between the energies of a definite light-complex "measured when moving" and "measured when stationary," the volumes of the light-complex measured in K and k being equal. Yet this is not the case. If are the direction-cosines of the wave-normal of light in the stationary system, then no energy passes through the surface elements of the spherical surface
+
+,
+
+which expands with the velocity of light. We can therefore say, that this surface always encloses the same light-complex. Let us now consider the quantity of energy, which this surface encloses, when regarded from the system k, i.e., the energy of the light-complex relative to the system k.
+
+Regarded from the moving system, the spherical surface becomes an ellipsoidal surface, having, at the time , the equation :—
+
+
+
+If , , then a simple calculation shows that:
+
+
+
+If E denotes the quantity of light energy measured in the stationary system, E' the quantity measured in the moving system, which are enclosed by the surfaces mentioned above, then
+
+
+
+
+
+If , we have the simple formula :—
+
+
+
+
+
+It is to be noticed that the energy and the frequency of a light-complex vary according to the same law with the state of motion of the observer.
+
+Let there be a perfectly reflecting mirror at the co-ordinate-plane , from which the plane-wave considered in the last paragraph is reflected. Let us now ask ourselves about the light-pressure exerted on the reflecting surface and the direction, frequency, intensity of the light after reflexion.
+
+Let the incident light be defined by the magnitudes , v (referred to the system K). Regarded from k, we have the corresponding magnitudes :
+
+
+
+
+
+For the reflected light we obtain, when the process is referred to the system k :—
+
+.
+
+
+
+By means of a back-transformation to the stationary system, we obtain K, for the reflected light :—
+
+
+
+The amount or energy falling upon the unit surface of the mirror per unit of time (measured in the stationary system) is . The amount of energy going away from unit surface of the mirror per unit of time is . The difference of these two expressions is, according to the Energy principle, the amount of work exerted, by the pressure of light per unit of time. If we put this equal to , where , we have
+
+
+
+
+
+As a first approximation, we obtain
+
+,
+
+
+
+which is in accordance with facts, and with other theories.
+
+All problems of optics of moving bodies can be solved after the method used here. The essential point is, that the electric and magnetic forces of light, which are influenced by a moving body, should be transformed to a system of co-ordinates which is stationary relative to the body. In this way, every problem of the optics of moving bodies would be reduced to a series of problems of the optics of stationary bodies.
+
+
+
+
+
+§ 9. Transformation of the Maxwell-Hertz Equations.
+
+
+
+
+Let us start from the equations :—
+
+
+
+where , denotes times the density of electricity, and are the velocity-components of electricity. If we now suppose that the electrical masses are bound unchangeably to small, rigid bodies (Ions, electrons), then these equations form the electromagnetic basis of Lorentz's electrodynamics and optics for moving bodies.
+
+If these equations which hold in the system K, are transformed to the system k with the aid of the transformation-equations given in § 3 and § 6, then we obtain the equations :—
+
+
+
+, ,
+
+,
+
+
+
+
+
+where
+
+
+
+,
+
+,
+
+.
+
+
+
+
+
+Since the vector is nothing but the velocity of the electrical mass measured in the system k, as can be easily seen from the addition-theorem of velocities in § 4—so it is hereby shown, that by taking our kinematical principle as the basis, the electromagnetic basis of Lorentz's theory of electrodynamics of moving bodies correspond to the relativity-postulate. It can be briefly remarked here that the following important law follows easily from the equations developed in the present section :— if an electrically charged body moves in any manner in space, and if its charge does not change thereby, when regarded from a system moving along with it, then the charge remains constant even when it is regarded from the stationary system K.
+
+
+
+
+
+§ 10. Dynamics of the Electron (slowly accelerated).
+
+
+
+
+Let us suppose that a point-shaped particle, having the electrical charge e (to be called henceforth the electron) moves in the electromagnetic field ; we assume the following about its law of motion.
+
+If the electron be at rest at any definite epoch, then in the next "particle of time," the motion takes place according to the equations
+
+
+
+Where are the co-ordinates of the electron, and m is its mass.
+
+Let the electron possess the velocity v at a certain epoch of time. Let us now investigate the laws according to which the electron will move in the 'particle of time' immediately following this epoch.
+
+Without influencing the generality of treatment, we can and we will assume that, at the moment we are considering, the electron is at the origin of co-ordinates, and moves with the velocity v along the X-axis of the system. It is clear that at this moment () the electron is at rest relative to the system k, which moves parallel to the X-axis with the constant velocity v.
+
+From the suppositions made above, in combination with the principle of relativity, it is clear that regarded from the system k, the electron moves according to the equations
+
+,
+
+in the time immediately following the moment, where the symbols () refer to the system k. If we now fix, that for , , then the equations of transformation given in § 3 (and 6) hold, and we have :
+
+
+
+With the aid of these equations, we can transform the above equations of motion from the system k to the system K, and obtain :—
+
+(A)
+
+
+
+
+
+Let us now consider, following the usual method of treatment, the longitudinal and transversal mass of a moving electron. We write the equations (A) in the form
+
+
+
+and let us first remark, that are the components of the ponderomotive force acting upon the electron, and are considered in a moving system which, at this moment, moves with a velocity which is equal to that of the electron. This force can, for example, be measured by means of a spring-balance which is at rest in this last system. If we briefly call this force as "the force acting upon the electron," and maintain the equation :—
+
+, and if we further fix that the accelerations are measured in the stationary system K, then from the above equations, we obtain :—[WS 1]
+
+[1]
+
+
+
+
+
+Naturally, when other definitions are given of the force and the acceleration, other numbers are obtained for the mass ; hence we see that we must proceed very carefully in comparing the different theories of the motion of the electron.
+
+We remark that this result about the mass hold also for ponderable material mass ; for in our sense, a ponderable material point may be made into an electron by the addition of an electrical charge which may be as small as possible.
+
+Let us now determine the kinetic energy of the electron. If the electron moves from the origin of co-ordinates of the system K with the initial velocity 0 steadily along the X-axis under the action of an electromotive force X, then it is clear that the energy drawn from the electrostatic field has the value . Since the electron is only slowly accelerated, and in consequence, no energy is given out in the form of radiation, therefore the energy drawn from the electro-static field may be put equal to the energy W of motion. Considering the whole process of motion in questions, the first of equations A) holds, we obtain :—
+
+.
+
+For v=c, W is infinitely great. As our former result shows, velocities exceeding that of light can have no possibility of existence.
+
+In consequence of the arguments mentioned above, this expression for kinetic energy must also hold for ponderable masses.
+
+We can now enumerate the characteristics of the motion of the electrons available for experimental verification, which follow from equations A).
+
+
+
+1. From the second of equations A); it follows that an electrical force Y, and a magnetic force N produce equal deflexions of an electron moving with the velocity v, when . Therefore we see that according to our theory, it is possible to obtain the velocity of an electron from the ratio of the magnetic deflexion Am, and the electric deflexion Ae, by applying the law :—
+
+.
+
+This relation can be tested by means of experiments because the velocity of the electron can be directly measured by means of rapidly oscillating electric and magnetic fields.
+
+2. From the value which is deduced for the kinetic energy of the electron, it follows that when the electron falls through a potential difference of P, the velocity v which is acquired is given by the following relation :—
+
+.
+
+3. We calculate the radius of curvature R of the path, where the only deflecting force is a magnetic force N acting perpendicular to the velocity of projection. From the second of equations A) we obtain :
+
+,
+
+or
+
+
+
+These three relations are complete expressions for the law of motion of the electron according to the above theory.
+
+
+
+
+
+Footnotes
+
+
+↑ Vide Note 21.
+
+
+
+
+
+↑ The German original has: Longitudinal mass
+
+Transverse mass
+
+
+
+
+
+ This work is a translation and has a separate copyright status to the applicable copyright protections of the original content.
+
+
+
+Original:
+
+
+
+This work is in the public domain in the United States because it was published before January 1, 1931.
+
+
+
+* * *
+
+
+
+The longest-living author of this work died in 1955, so this work is in the public domain in countries and areas where the copyright term is the author's life plus 70 years or less. This work may be in the public domain in countries and areas with longer native copyright terms that apply the rule of the shorter term to foreign works.
+
+
+
+
+
+Translation:
+
+
+
+This work is in the public domain in the United States because it was published before January 1, 1931.
+
+
+
+* * *
+
+
+
+The longest-living author of this work died in 1956, so this work is in the public domain in countries and areas where the copyright term is the author's life plus 69 years or less. This work may be in the public domain in countries and areas with longer native copyright terms that apply the rule of the shorter term to foreign works.
+
+
+
+
+
+About this digital edition
+
+
+This e-book comes from the online library Wikisource. This multilingual digital library, built by volunteers, is committed to developing a free accessible collection of publications of every kind: novels, poems, magazines, letters...
+
+We distribute our books for free, starting from works not copyrighted or published under a free license. You are free to use our e-books for any purpose (including commercial exploitation), under the terms of the Creative Commons Attribution-ShareAlike 4.0 Unported license or, at your choice, those of the GNU FDL.
+
+Wikisource is constantly looking for new members. During the transcription and proofreading of this book, it's possible that we made some errors. You can report them at this page.
+
+The following users contributed to this book:
+
+Cantons-de-l'Est
+
+D.H
+
+Xover
+
+ShakespeareFan00
+
+CandalBot
+
+MathXplore
+
+Jan.Kamenicek
+
+Jeepday
+
+AuFCL
+
+Masur
+
+Jarekt
+
+Rocket000
+
+Zscout370
+
+Boris23
+
+Abu badali~commonswiki
+
+Kyle the hacker
+
+Cumulus
+
+Noclip~commonswiki
+
+Ö
+
+Latebird
+
+Auralux
+
+Waldyrious
+
+Dbenbenn
+
+Jacobolus
+
+Indolences
+
+Technion
+
+Dha
+
+Abigor
+
+Reisio
+
+Blurpeace
+
+Dschwen
+
+Steinsplitter
+
+KABALINI
+
+Bromskloss
+
+Tene~commonswiki
+
+AzaToth
+
+Bender235
+
+PatríciaR
+
+
+
+
+

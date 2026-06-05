@@ -1,0 +1,26 @@
+# LLM + Embeddings
+google-genai
+langchain-google-genai
+langchain
+langgraph
+openai
+
+# RAG
+llama-index
+llama-index-vector-stores-chroma
+chromadb
+rank-bm25
+sentence-transformers
+
+# Backend
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+websockets
+pyyaml
+
+# Utilities
+nltk
+numpy
+httpx

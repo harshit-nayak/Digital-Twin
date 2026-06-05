@@ -1,0 +1,459 @@
+=== PAGE 1 ===
+A Journal Devoted to the Instructional and Cultural Aspects of Physical Science
+Votume 33, Numper 5 May 1965
+Einstein’s Proposal of the Photon Concept-——a Translation of the
+Annalen der Physik Paper of 1905*
+A. B. Aronst anp M. B. PEepparpt
+Amherst College, Amherst, Massachusetts
+(Received 2 December 1964)
+Of the trio of famous papers that Albert Einstein sent to the Annalen dey Physik in 1905
+only the paper proposing the photon concept has been unavailable in English translation.
+The American Journal of Physics is publishing the following translation in recognition of the
+sixtieth anniversary of the appearance of the original work. Physics teachers may take particu-
+lar interest in the following aspects: (1) Einstein’s keen awareness of the heuristic character
+of his new conception. (2) His demonstration from thermodynamic and statistical considerations
+that electromagnetic radiation might be conceived as consisting of finite numbers of discrete
+corpuscles of energy hv. (3) His prediction of the linear relation between the stopping potential
+of photoelectrons and the frequency of the incident light. This latter aspect of the photo-
+electric effect was not included among Lenard’s early investigations. It remained for Millikan
+and others to develop the elegant experimental techniques that confirmed Einstein's bold pre-
+diction. Readers interested in pursuing the background in greater depth will find it rewarding
+to refer to the critical analyses by Martin J. Klein in “Einstein’s First Paper on Quanta,” in
+The Natural Philosopher (Blaisdeli Publishing Company, New York, 1963), Vol. I], and
+“Einstein and the Wave-Particle Duality,” in The Natural Philosopher, Vol. (II, 1964. We are
+grateful to Professor Klein for his criticism and advice regarding this translation and for his
+generosity in making available to us an unpublished translation of his own.
+CONCERNING AN Se MISS ON AND spatial functions to describe the electromagnetic
+VIEW TOWARD THE EMISSI a :
+state of a given volume, and a finite number of
+TRANSFORMATION OF LIGHT given volume, and a finite number o
+parameters cannot be regarded as sufficient for
+By A, EINSTEIN the complete determination of such a state. Ac-
+A PROFOUND formal distinction exists be- cording to the Maxwellian theory, energy is to
+tween the theoretical concepts which physi- be considered a continuous spatial function in
+cists have formed regarding gases and other the case of all purely electromagnetic phenomena
+ponderable bodies and the Maxwellian theory of including light, while the energy of a ponderable
+electromagnetic processes in so-called empty object should, according to the present concep-
+space. While we consider the state of a body to tions of physicists, be represented as a sum
+be completely determined by the positions and carried over the atoms and electrons, The energy
+velocities of a very large, yet finite, number of of a ponderable body cannot be subdivided into
+atoms and electrons, we make use of continuous arbitrarily many or arbitrarily small parts, while
+* Ann. Physik 17, 132 (1905); Translation published the energy of a beam of light from a point source
+with the permission of Annalen der Physik. i i i
++ Department of Physicn (according to the Maxwellian theory of light or,
+t Department of German. more generally, according to any wave theory) is
+367
+
+=== PAGE 2 ===
+368 A. B. ARONS AND M. B. PEPPARD
+continuously spread over an ever increasing be a number of electrons which are bound to
+volume. widely separated points by forces proportional
+
+The wave theory of light, which operates with to their distances from these points. The bound
+continuous spatial functions, has worked well in electrons are also to participate in conservative
+the representation of purely optical phenomena interactions with the free molecules and electrons
+and will probably never be replaced by another when the latter come very close. We call the
+theory. It should be kept in mind, however, that bound electrons “oscillators”; they emit and
+the optical observations refer to time averages absorb electromagnetic waves of definite periods.
+rather than instantaneous values. In spite of the According to the present veiw regarding the
+complete experimental confirmation of the theory _ origin of light, the radiation in the space we are
+as applied to diffraction, reflection, refraction, considering (radiation which is found for the case
+dispersion, etc., it is still conceivable that the of dynamic equilibrium in accordance with the
+theory of light which operates with continuous Maxwellian theory) must be identical with the
+spatial functions may lead to contradictions blackbody radiation—at least if oscillators of all
+with experience when it is applied to the phe- the relevant frequencies are considered to be
+nomena of emission and transformation of light. present.
+
+It seems to me that the observations associated For the time being, we disregard the radiation
+with blackbody radiation, fluorescence, the emitted and absorbed by the oscillators and
+production of cathode rays by ultraviolet light, inquire into the condition of dynamical equilib-
+and other related phenomena connected with the _ rium associated with the interaction (or collision)
+emission or transformation of light are more of molecules and electrons. The kinetic theory of
+readily understood if one assumes that the energy gases asserts that the average kinetic energy of
+of light is discontinuously distributed in space. an oscillator electron must be equal to the aver-
+In accordance with the assumption to be con- age kinetic energy of a translating gas molecule.
+sidered here, the energy of a light ray spreading If we separate the motion of an oscillator electron
+out from a point source is not continuously into three components at right angles to each
+distributed over an increasing space but consists other, we find for the average energy E of one
+of a finite number of energy quanta which are of these linear components the expression
+localized at points in space, which move without - .
+dividing, and which can only be produced and E=(R/N)T,
+absorbed as complete units. . where R denotes the universal gas constant, V
+
+In the following I wish to present the line of denotes the number of “real molecules” in a
+thought and the facts which have led me to this gram equivalent, and T the absolute tempera-
+point of view, hoping that this approach may be ture. The energy Z is equal to two-thirds the
+useful to some investigators in their research. kinetic energy of a free monatomic gas particle
+
+because of the equality between the time average
+1 Oa Keon On BONO RNA TO values of the kinetic and potential energies of the
+oscillator. If through any cause—in our case
+
+We start first with the point of view taken in through radiation processes—it should occur that
+the Maxwellian and the electron theories and the energy of an oscillator takes on a time-
+consider the following case. In a space enclosed average value greater or less than E, then the
+by completely reflecting walls, let there be a collisions with the free electrons and molecules
+number of gas molecules and electrons which are would lead to a gain or loss of energy by the gas,
+free to move and which exert conservative forces different on the average from zero. Therefore, in
+on each other on close approach; i.e. they can the case we are considering, dynamic equilibrium
+collide with each other like molecules in the is possible only when each oscillator has the
+kinetic theory of gases.! Furthermore, let there average energy EF.
+
+This assumption is equivalent to the supposition that known that, with the help of this assumption, Herr Drude
+the average kinetic energies of gas molecules and electrons derived a theoretical expression for the ratio of thermal
+are equal to each other at thermal equilibrium. It is well and electrical conductivities of metals.
+
+=== PAGE 3 ===
+EINSTEIN’S PROPOSAL OF THE PHOTON CONCEPT 369
+We shall now proceed to present a similar argu- and in the limit we obtain
+ment regarding the interaction between the
+: ae : e R8r_ *
+oscillators and the radiation present in the [ pdv=— arf Ydy=o.
+cavity. Herr Planck has derived? the condition Jo NL J,
+for the dynamical equilibrium in this case under
+the supposition that the radiation can be con- 2. CONCERNING PLANCK’S DETERMINATION
+sidered a completely random process.? He found OF THE FUNDAMENTAL CONSTANTS
+= J i i 1
+(B,) = (13/8x0) p», We wish to show in the following that Herr
+Planck’s determination of the fundamental
+where (#,) is the average energy (per degree  coustants is, to a certain extent, independent of
+of freedom) of an oscillator with eigenfrequency his theory of blackbody radiation.
+v, L the velocity of light, » the frequency, and Planck’s formula, which has proved adequate
+adv the energy per unit volume of that portion uP to this point, gives for p,
+of the radiation with frequency between » and ay?
+vt+dp. Py =>
+ous . Plt 1
+If the radiation energy of frequency py is not
+continually increasing or decreasing, the follow- a=6.10X 10-5,
+ing relations must obtain: 8=4,866X 10-4.
+(R/N)T =E = (H,) = (L8/827") py, . .
+RIN (Srv2/L? For large values of T/v; i.e. for large wavelengths
+p= (R/N) (8av?/L)T. and radiation densities, this equation takes the
+These relations, found to be the conditions of form
+dynamic equilibrium, not only fail to coincide p= (a/8) PT.
+with experiment, but also state that in our model . . . Coo. . .
+. we It is evident that this equation is identical with
+there can be no talk of a definite energy distribu- . . .
+
+. 5 the one obtained in Sec. 1 from the Maxwellian
+
+tion between ether and matter. The wider the . . :
+; and electron theories. By equating the coefficients
+range of wavenumbers of the oscillators, the :
+. of both formulas one obtains
+greater will be the radiation energy of the space,
+ne R/N) (87/L*) = (a/8
+
+? M, Planck, Ann, Physik 1, 99 (1900). ¢ , (2/8)
+
+3 This problem can be formulated in the following man- OF
+ner. We expand the Z component of the electrical force (Z) ,
+at an arbitrary point during the time interval between t=0 N= (8/a) (8rR/L*) =6.17 X 10%,
+and ¢=T in a Fourier series in which 4,2 0 and 0<a< i
+the time T is taken to be very large relative to all the - . .
+periods of oscillation that are present: ie., an atom of hydrogen weighs 1/N grams
+
+_ : = 1.62 X10-™ g. This is exactly the value found
+Z= 2 Ay sin(2nrpcta). by Herr Planck, which in turn agrees with values
+If one imagines making this expansion arbitrarily often at found by other methods.
+a given point in space at randomly chosen instants of time, We therefore arrive at the conclusion: the
+one will obtain various sets of values of A, and ay. There :
+then exist for the frequency of occurrence of different sets Steater the energy density and the wavelength
+ef values of A, and a, (statistical) probabilities dW of the of a radiation, the more useful do the theoretical
+orm . .
+. on les we h. employed t ;
+dW = f(A1,A9- + -a1,09*++)dA,dA2:+ -donrdas:++. Principles we have ploye um out to be; for
+vee ee . . . small wavelengths and small radiation densities,
+Thefradiation is then as disordered as conceivable if en .
+however, these principles fail us completely.
+
+P(A Aa: + sanjeres ++) = Fi(A1) Fe(Az) +++ filor) fe(ar)+ +, . : .
+pen a: : . In the following we shall consider the experi-
+ive., if the probability of a particular value of A or a@ is : wae
+independent of other values of A or a. The more closely mental facts concerning blackbody radiation
+this condition is fulfilled (namely, that the individual pairs without invoking a model for the emission and
+of values of A, and a are dependent upon the emission : oa . ~
+and absorption processes of specific groups of oscillators) propagation of the radiation itself.
+the more closely will radiation in the case being considered 9——————
+approximate a perfectly random state. 4M. Planck, Ann, Physik 4, 561 (1901).
+
+=== PAGE 4 ===
+370 A. B. ARONS AND M. B. PEPPARD
+3. CONCERNING THE ENTROPY OF RADIATION increases by dT
+The following treatment is to be found in a = dg
+famous work by Herr W. Wien and is introduced dS= i (=)nar,
+here only for the sake of completeness. v=o \ Op
+Suppose we have radiation occupying a volume or, since /dp is independent of »,
+v. We assume that the observable properties of
+the radiation are completely determined when dS = (0¢/dp)dE.
+the radiation densit is gi f Il fre- . .
+€ ra - fon Gens! y p(y) 1S given for al te Since dE is equal to the heat added and since
+quencies.* Since radiations of different fre- . : .
+. . . the process is reversible, the following statement
+quencies are to be considered independent of each Iso applies
+other when there is no transfer of heat or work, a PP
+the entropy of the radiation can be repre- dS= (1/T)dE.
+ted b : :
+senreg oy By comparison one obtains
+s-of o(p,v)dy, 0¢/dp =1/T.
+0
+This is the law of blackbody radiation. Therefore
+where ¢ is a function of the variables p and ». one can derive the law of blackbody radiation
+¢ can be reduced to a function of a single from the function ¢, and, inversely, one can
+variable through formulation of the condition derive the function ¢ by integration, keeping in
+that the entropy of the radiation is unaltered mind the fact that ¢ vanishes when p=0.
+during adiabatic compression between reflecting
+walls. We shall not enter into this problem, how- 4. ASYMPTOTIC FORM FOR THE ENTROPY
+ever, but shall directly investigate the derivation OF MONOCHROMATIC RADIATION AT
+of the function ¢ from the blackbody radiation LOW RADIATION DENSITY
+law. From existing observations of the blackbody
+In the case of blackbody radiation, p is such adiation, it is clear that the law originally
+a function of » that the entropy is a maximum postulated by Herr W. Wien,
+for a fixed value of energy; i.e.,
+p=avrehlT,
+6 i o(p,v)dv =0 is not exactly valid. It is, however, well confirmed
+o experimentally for large values of v/T. We shall
+providing base our analysis on this formula, keeping in mind
+co that our results are only valid within certain
+if pdv =0. limits.
+0 This formula gives immediately
+From this it follows that for every choice of 6p (1/T) = — (1/Bv) In (p/av*)
+functi f : . . .
+as a runction oY and then, by using the relation obtained in the
+© 100 preceding section,
+i (—=—1)inds—o,
+o \dp p p
+_ o(p,v) = ~~ in(=.) - 1,
+where d is independent of v. In the case of black- By ay’
+bod diation, therefore, 0¢/dp is independent cos
+or i FAMIANOD, ENE €, 06/dp is indep Suppose that we have radiation of energy E,
+The following equation applies when the tem- with frequency between ' and ae enclosed mn
+perature of a unit volume of blackbody radiation VOU™ME® “ne entropy oF Enis Tadlation Is:
+6 This assumption is an arbitrary one, One will naturally E E
+cling to this simplest assumption as long as it is not S=v¢o(p,v)dy = ——| In| —— }—1 }.
+controverted by experiment. By verdy
+
+=== PAGE 5 ===
+EINSTEIN’S PROPOSAL OF THE PHOTON CONCEPT 374
+If we confine ourselves to investigating the de- and
+pendence of the entropy on the volume occupied W=W,: Wa
+by the radiation, and if we denote by So the The last equation says that the states of the two
+entropy of the radiation at volume %, we obtain .
+systems are independent of each other.
+S—So= (E/8v) In(w/v0). From these equations it follows that
+
+This equation shows that the entropy of a (Wi: We) = 61(W1) +42(W2),
+monochromatic radiation of sufficiently low ;
+density varies with the volume in the same and finally
+manner as the entropy of an ideal gas or a dilute 6:(W1) =C In(W;) + const,
+solution. In the following, this equation will be _
+interpreted in accordance with the principle in- $2(Ws)=C In(Ws)-+const,
+troduced into physics by Herr Boltzmann, $(W) =C In(W)-+const.
+namely that the entropy of a system is a function The quantity C is therefore a universal constant;
+of the probability its state. the kinetic theory of gases shows its value to be
+
+5. MOLECULAR-THEORETIC INvEstIGATION oF &/N, where the constants R and N have been
+THE DEPENDENCE OF THE ENTROPY defined above. If Sp denotes the entropy of a
+
+OF GASES AND DILUTE SOLUTIONS system in some initial state and W denotes the
+
+ON THE VOLUME relative probability of a state of entropy S, we
+
+In the calculation of entropy by molecular- obtain in general
+theoretic methods we frequently use the word S—So=(R/N) InW.
+“probability” in a sense differing from that
+employed in the calculus of probabilities. In First we treat the following special case. We
+particular, “cases of equal probability” have consider a number (m) of movable points (e.g.,
+frequently been hypothetically established when ™olecules) confined in a volume vp. Besides these
+the theoretical models being utilized are definite Points, there can be in the space any number of
+enough to permit a deduction rather than acon- ther movable points of any kind. We shall not
+jecture. I will show in a separate paper that the ssume anything concerning the law in accord-
+so-called “statistical probability” is fully ade- ance with which the points move in this space
+quate for the treatment of thermal phenomena, except that with regard to this motion, no part
+and I hope that by doing so I will eliminate a of the space (and no direction within it) can be
+logical difficulty that obstructs the application distinguished from any other. Further, we take
+of Boltzmann’s Principle. Here, however, only a the number of these movable points to be so
+general formulation and application to very small that we can disregard interactions between
+special cases will be given. them.
+
+If it is reasonable to speak of the probability This system, which, for example, can be an
+of the state of a system, and furthermore if every ideal gas or a dilute solution, possesses an entropy
+entropy increase can be understood as a transi- So- Let us imagine transferring all » movable
+tion to a state of higher probability, then the Points into a volume » (part of the volume »»)
+entropy 5; of a system is a function of W1, the without anything else being changed in the
+probability of its instantaneous state. If we have System. This state obviously possesses a different
+two noninteracting systems S; and Sy, we can entropy (S), and we now wish to evaluate the
+write entropy difference with the help of the Boltzmann
+
+S,=o:(W)), Principle. ; ;
+Se=$2(W2). We inquire: How large is the probability of
+ze Pak. the latter state relative to the original one? Or:
+If one considers these two systems as a single How large is the probability that at a randomly
+system of entropy Sand probability W, it follows chosen instant of time all 2 movable points in
+that the given volume vo will be found by chance in
+S=Si+S,.=6(W) the volume v?
+
+=== PAGE 6 ===
+372 A. B. ARONS AND M. B. PEPPARD
+For this probability, which is a ‘statistical We still wish to compare the average mag-
+probability,”’ one obviously obtains: nitude of the energy quanta of the blackbody
+w= a radiation with the average translational kinetic
+= (v/v0)".
+energy of a molecule at the same temperature.
+By applying the Boltzmann Principle, one then The latter is 3(R/N)T, while, according to the
+obtains Wien formula, one obtains for the average mag-
+S—Sy=R(n/N) In(v/01). nitude of an energy quantum
+2 N
+It is noteworthy that in the derivation of this | aneoitay | | a5! Ty = 3 (RT/N).
+equation, from which one can easily obtain the ° 0 Réy
+law of Boyle and Gay-Lussac as well as the If the entropy of monochromatic radiation
+analogous law of osmotic pressure thermody- depends on volume as though the radiation were
+namically,® no assumption had to be made as to a discontinuous medium consisting of energy
+a law of motion of the molecules. quanta of magnitude R6y/N, the next obvious
+step is to investigate whether the laws of emission
+6. TE VOLUME DEP ON DERON DE tee i ne and transformation of light are also of such a
+TROPY OF MONOCHROMATIC RADIA- nature that they can be interpreted or explained
+TION IN ACCORDANCE WITH by considering light to consist of such energy
+BOLTZMANN'S PRINCIPLE quanta. We shail examine this question in the
+In Sec. 4, we found the following expression following.
+for the dependence of the entropy of monochro- 7. CONCERNING STOKES’S RULE
+matic radiation on the volume According to the result just obtained, let us
+S—So= (E/8v) In(v/v0). assume that, when monochromatic light is trans-
+. oo. formed through photoluminescence into light of
+If one writes this in the form a different frequency, both the incident and
+S—So= (R/N) In[ (v/v9) 81? “E16? 7, emitted light consist of energy quanta of magni-
+, tude RB»/N, where v denotes the relevant fre-
+and if one compares this with the general formula quency. The transformation process is to be
+for the Boltzmann principle interpreted in the following manner. Each inci-
+S—So= (R/N) logW, dent energy quantum of frequency 7 is absorbed
+and generates by itselfi—at least at sufficiently
+one arrives at the following conclusion: low densities of incident energy quanta—a light
+If monochromatic radiation of frequency » and quantum of frequency »2; it is possible that the
+energy E is enclosed by reflecting walls in a absorption of the incident light quantum can give
+volume vo, the probability that the total radiation tise to the simultaneous emission of light quanta
+energy will be found in a volume v (part of the of frequencies v3, va, etc., as well as to energy of
+volume %) at any randomly chosen instant is other kinds, e.g., heat. It does not matter what
+W = (v/v9) (812-160), intermediate processes give rise to this final re-
+sult. If the fluorescent substance is not a per-
+From this we further conclude that: Mono- _ petual source of energy, the principle of conserva-
+chromatic radiation of low density (within the tion of energy requires that the energy of an
+range of validity of Wien’s radiation formula) emitted energy quantum cannot be greater than
+behaves thermodynamically as though it con- that of the incident light quantum; it follows
+sisted of a number of independent energy quanta that
+of magnitude R6v/N. RBv2/N < RBv1/N
+6 If Eis the energy of the system, one obtains: or
+—d(E—TS) =pdo = TdS =RT(n/N)(do/2); vain.
+therefore pu=R(n/NYT. This is the well-known Stokes’s Rule.
+
+=== PAGE 7 ===
+EINSTEIN’S PROPOSAL OF THE PHOTON CONCEPT 373
+It should be strongly emphasized that accord- quanta penetrate into the surface layer of the
+ing to our conception the quantity of light body, and their energy is transformed, at least in
+emitted under conditions of low illumination part, into kinetic energy of electrons. The sim-
+(other conditions remaining constant) must be  plest way to imagine this is that a light quantum
+proportional to the strength of the incident light, delivers its entire energy to a single electron; we
+since each incident energy quantum willcausean shall assume that this is what happens. The
+elementary process of the postulated kind, inde- possibility should not be excluded, however, that
+pendently of the action of other incident energy electrons might receive their energy only in part
+quanta. In particular, there will be no lower limit from the light quantum.
+for the intensity of incident light necessary to An electron to which kinetic energy has been
+excite the fluorescent effect. imparted in the interior of the body will have
+According to the conception set forth above, lost some of this energy by the time it reaches
+deviations from Stokes’s Rule are conceivable in the surface. Furthermore, we shall assume that
+the following cases: in leaving the body each electron must perform
+1. when the number of simultaneously inter- an amount of work P characteristic of the sub-
+acting energy quanta per unit volume is so large sta nce. The ejected electrons leaving the body
+that an energy quantum of emitted light can with the largest normal velocity will be those that
+receive its energy from several incident energy “°Te directly at the surface. The kinetic energy
+quanta; of such electrons is given by
+2. when the incident (or emitted) light is not R6v/N—-P.
+of such a composition that it corresponds to
+blackbody radiation within the range of validity If the body is charged to a positive potential
+of Wein’s Law, that is to say, for example, 2 and is surrounded by conductors at zero
+when the incident light is produced by a body of potential, and if IT is just large enough to prevent
+such high temperature that for the wavelengths loss of electricity by the body, it follows that:
+under consideration Wien’s Law is no longer Te=R6v/N—P
+valid.
+The last-mentioned possibility commands es- where ¢ denotes the electronic charge, or
+pecial interest. According to the conception we ME=R6v—P’
+have outlined, the possibility is not excluded that
+a “non-Wien radiation” of very low density can where E is the charge of a gram equivalent of a
+exhibit an energy behavior different from that of monovalent ion and P’ is the potential of this
+a blackbody radiation within the range of quantity of negative electricity relative to the
+validity of Wien’s Law. body.’
+If one takes E=9.6X10*, then II-1078 is the
+8. CONCERNING THE EMISSION OF CATHODE potential in volts which the body assumes when
+RAYS THROUGH THE ILLUMINATION irradiated in a vacuum.
+OF SOLID BODIES In order to see whether the derived relation
+The usual conception, that the energy of light yields an order of magnitude consistent with
+is continuously distributed over the space experience, we take P’=0, »=1.0310" (corre-
+through which it propagates, encounters very sponding to the limit of the solar spectrum
+serious difficulties when one attempts to explain toward the ultraviolet) and 8 =4.866 X10-". We
+the photoelectric phenomena, as has been pointed obtain Il-10’=4.3 volts, a result agreeing in
+out in Herr Lenard’s pioneering paper.” order magnitude with those of Herr Lenard.®
+. According to the concept that the incident 8 If one assumes that the individual electron is detached
+light consists of energy quanta of magnitude from a neutral molecule by light with the performance of a
+RB»/N, however, one can conceive of the ejection certain amount of work, nothing in the relation derived
+. . . above need be changed; one can simply consider P’ as the
+of electrons by light in the following way. Energy — sum of two terms.
+—_—_— °P. Lenard, Ann. Physik 8, pp. 165, 184, and Table I,
+7P, Lenard, Ann. Physik 8, 169, 170 (1902). Fig. 2 (1902).
+
+=== PAGE 8 ===
+374 A. B. ARONS AND M. B. PEPPARD
+
+If the derived formula is correct, then I, when 9, CONCERNING THE IONIZATION OF GASES
+represented in Cartesian coordinates as a func- BY ULTRAVIOLET LIGHT
+tion of the frequency of the incident light, must We shall have to assume that, in the ionization
+be a straight line whose slope is independent of of a gas by ultraviolet light, an individual light
+the nature of the emitting substance. energy quantum is used for the ionization of an
+
+As far as I can see, there is no contradiction individual gas molecule. From this it follows
+between these conceptions and the properties of immediately that the work of ionization (i.e., the
+the photoelectric effect observed by Herr Lenard. work theoretically needed for ionization) of a
+If each energy quantum of the incident light, molecule cannot be greater than the energy of
+independently of everything else, delivers its an absorbed light quantum capable of producing
+energy to electrons, then the velocity distribution this effect. If one denotes by J the (theoretical)
+of the ejected electrons will be independent of the work of ionization per gram equivalent, then it
+intensity of the incident light; on the other hand follows that:
+the number of electrons leaving the body will, Rev>J.
+if other conditions are kept constant, be pro- .
+portional to the intensity of the incident light. According to Lenard’s measurements, however,
+
+Remarks similar to those made concerning the largest effective wavelength for air is approxi-
+hypothetical deviations from Stokes’s Rule can mately 1.9X10~* cm; therefore:
+can be made with regard to hypothetical bound- R6y =6.4X10" erg > J.
+aries of validity of the law set forth above.
+
+In the foregoing it has been assumed that the An upper limit for the work of ionization can
+energy of at least some of the quanta of the also be obtained from the ionization potentials of
+incident light is delivered completely to in- rarefied gases. According to J. Stark! the smallest
+dividual electrons. If one does not make this observed ionization potentials for air (at plati-
+obvious assumption, one obtains, in place of the "um anodes) is about 10 V.* One therefore ob-
+last equation: tains 9.610" as an upper limit for J, which is
+
+E+ P’ < RBy. nearly equal to the value found above.
+There is another consequence the experimental
+
+For fluorescence induced by cathode rays, testing of which seems to me to be of great
+which is the inverse process to the one discussed importance. If every absorbed light energy
+above, one obtains by analagous considerations: quantum ionizes a molecule, the following rela-
+
+tion must obtain between the quantity of ab-
+
+NE+P'2 R6v. sorbed light Z and the number of gram molecules
+In the case of the substances investigated by of ionized gas j:
+Herr Lenard, PE" is always significantly greater j=L/R6p.
+than Rv, since the potential difference, which Lo. . . .
+the cathode rays must traverse in order to If our conception is correct, this relationship
+produce visible light, amounts in some cases to must be valid for all gases which (at the relevant
+hundreds and in others to thousands of volts." It frequency) show no appreciable absorption with-
+is therefore to be assumed that the kinetic energy out 1onization.
+of an electron goes into the production of many Bern, 17 March 1905
+light energy quanta. Received 18 March 1905.
+
+Pp. Lenard, Ref. 9, p. 150 and p. 166-168. ® J. Stark, Die Elektrizitat in Gasen (Leipzig, 1902), p. 57.
+
+10a Should be ILE (translator’s note). %3In the interior of gases the ionization potential for
+
+uP, Lenard, Ann. Physik 12, 469 (1903). negative ions is, however, five times greater.

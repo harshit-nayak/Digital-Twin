@@ -1,0 +1,13 @@
+.source-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  border: 1px solid;
+  font-family: var(--font-ui);
+  cursor: default;
+}
+
+.source-badge-icon { font-size: 0.75rem; }
+.source-badge-text { font-size: 0.7rem; }

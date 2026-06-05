@@ -1,0 +1,106 @@
+.input-bar-wrap {
+  border-top: 1px solid rgba(255,255,255,0.07);
+  background: rgba(0,0,0,0.25);
+  padding: 12px 20px 10px;
+  flex-shrink: 0;
+}
+
+.input-bar {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  background: var(--input-bg);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 12px;
+  padding: 10px 10px 10px 16px;
+  transition: border-color var(--trans-fast);
+}
+
+.input-bar:focus-within {
+  border-color: rgba(212,168,67,0.4);
+  box-shadow: 0 0 0 2px rgba(212,168,67,0.08);
+}
+
+.input-textarea {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--chalk-white);
+  min-height: 24px;
+  max-height: 140px;
+  overflow-y: auto;
+}
+
+.input-textarea::placeholder {
+  color: var(--chalk-faint);
+  font-family: var(--font-chalk);
+  font-size: 0.95rem;
+}
+
+.input-textarea:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.input-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.input-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  transition: all var(--trans-fast);
+}
+
+.voice-btn {
+  background: rgba(255,255,255,0.07);
+  color: var(--chalk-muted);
+}
+.voice-btn:hover { background: rgba(255,255,255,0.12); color: var(--chalk-white); }
+.voice-btn.recording {
+  background: rgba(232,160,160,0.2);
+  color: var(--chalk-pink);
+  animation: pulse-red 1s ease-in-out infinite;
+}
+@keyframes pulse-red {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(232,160,160,0.3); }
+  50%       { box-shadow: 0 0 0 6px rgba(232,160,160,0); }
+}
+
+.send-btn {
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.send-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.input-hint {
+  font-size: 0.68rem;
+  color: var(--chalk-faint);
+  font-family: var(--font-ui);
+  margin-top: 5px;
+  text-align: center;
+}

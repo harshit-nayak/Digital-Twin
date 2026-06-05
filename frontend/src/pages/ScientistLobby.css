@@ -1,0 +1,269 @@
+/* ── Scientist Lobby ──────────────────────────────────────── */
+
+.lobby-root {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  overflow-y: auto;
+  padding-bottom: 40px;
+}
+
+.lobby-bg {
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 20%, rgba(212,168,67,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 80%, rgba(122,184,122,0.05) 0%, transparent 60%),
+    radial-gradient(ellipse at 50% 50%, rgba(168,196,224,0.03) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Header ─────────────────────────────────────────────────── */
+.lobby-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(26, 46, 26, 0.92);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  padding: 16px 40px;
+}
+
+.lobby-header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.lobby-logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.lobby-logo-icon {
+  font-size: 2rem;
+  filter: drop-shadow(0 0 12px rgba(212,168,67,0.5));
+}
+
+.lobby-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.lobby-subtitle {
+  font-size: 0.78rem;
+  color: var(--chalk-muted);
+  margin-top: 1px;
+  font-family: var(--font-ui);
+}
+
+.lobby-status-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.78rem;
+  color: var(--chalk-muted);
+  white-space: nowrap;
+}
+
+.status-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.status-dot.live {
+  background: #6ee08a;
+  box-shadow: 0 0 6px rgba(110,224,138,0.6);
+  animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.5; }
+}
+
+/* ── Intro ──────────────────────────────────────────────────── */
+.lobby-intro {
+  max-width: 640px;
+  margin: 32px auto 0;
+  padding: 0 40px;
+  text-align: center;
+}
+.lobby-intro p {
+  font-size: 0.95rem;
+  color: var(--chalk-muted);
+  line-height: 1.65;
+  font-family: var(--font-ui);
+}
+
+/* ── Grid ───────────────────────────────────────────────────── */
+.lobby-grid {
+  max-width: 1200px;
+  margin: 28px auto 0;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+/* ── Scientist Card ─────────────────────────────────────────── */
+.scientist-card {
+  background: var(--sc-gradient, var(--card-bg));
+  border: 1px solid rgba(255,255,255,0.09);
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color var(--trans-med), box-shadow var(--trans-med);
+  display: flex;
+  flex-direction: column;
+}
+
+.scientist-card.coming_soon {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.scientist-card.live {
+  border-color: rgba(var(--sc-color, 255,255,255), 0.2);
+}
+
+.scientist-card.live:hover {
+  border-color: rgba(212,168,67,0.5);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(212,168,67,0.15);
+}
+
+/* ── Portrait ───────────────────────────────────────────────── */
+.sc-portrait {
+  position: relative;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.sc-icon {
+  font-size: 4rem;
+  filter: drop-shadow(0 4px 16px rgba(0,0,0,0.4));
+  position: relative;
+  z-index: 1;
+}
+
+.sc-portrait-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 60%, rgba(var(--glow, 255,255,255), 0.12) 0%, transparent 70%);
+}
+
+.sc-live-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(10,30,10,0.85);
+  border: 1px solid rgba(110,224,138,0.3);
+  border-radius: 12px;
+  padding: 3px 8px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #6ee08a;
+  backdrop-filter: blur(4px);
+}
+
+.sc-coming-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+  padding: 3px 8px;
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--chalk-muted);
+}
+
+/* ── Info ───────────────────────────────────────────────────── */
+.sc-info {
+  padding: 16px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.sc-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.sc-years {
+  font-size: 0.78rem;
+  color: var(--chalk-muted);
+  font-family: var(--font-ui);
+  margin-top: -4px;
+}
+
+.sc-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 2px;
+}
+
+.sc-specialty {
+  font-size: 0.8rem;
+  color: var(--chalk-faint);
+  font-family: var(--font-ui);
+  line-height: 1.4;
+}
+
+.sc-quote {
+  font-family: var(--font-period);
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--chalk-muted);
+  line-height: 1.5;
+  padding: 8px 0 4px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  margin-top: 4px;
+}
+
+.sc-quote-mark {
+  font-size: 1.1rem;
+  opacity: 0.5;
+  margin: 0 1px;
+}
+
+.sc-enter-btn {
+  margin-top: auto;
+  padding-top: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--sc-color, var(--accent));
+  letter-spacing: 0.03em;
+  text-align: right;
+}
+
+/* ── Footer ─────────────────────────────────────────────────── */
+.lobby-footer {
+  text-align: center;
+  padding: 32px 40px 16px;
+  font-size: 0.75rem;
+  color: var(--chalk-faint);
+  font-family: var(--font-ui);
+}

@@ -1,0 +1,87 @@
+/* ── Chalkboard Room Layout ──────────────────────────────── */
+
+.room-root {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Left Sidebar ───────────────────────────────────────────── */
+.room-sidebar {
+  width: var(--sidebar-w);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--sidebar-border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  backdrop-filter: blur(12px);
+}
+
+/* ── Main Area ──────────────────────────────────────────────── */
+.room-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 0;
+}
+
+/* ── Top Bar ────────────────────────────────────────────────── */
+.room-topbar {
+  height: var(--topbar-h);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 20px;
+  background: rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  flex-shrink: 0;
+}
+
+.room-back {
+  font-size: 0.82rem;
+  padding: 5px 10px;
+  flex-shrink: 0;
+}
+
+.room-scientist-id {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.room-scientist-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--einstein-gold);
+}
+
+.room-divider {
+  color: var(--chalk-faint);
+  font-size: 0.9rem;
+}
+
+.room-timeline-area {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 0;
+}
+
+/* ── Right Panel ────────────────────────────────────────────── */
+.room-right-panel {
+  width: 200px;
+  flex-shrink: 0;
+  background: rgba(0,0,0,0.25);
+  border-left: 1px solid var(--sidebar-border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 12px;
+  gap: 12px;
+}

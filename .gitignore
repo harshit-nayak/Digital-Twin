@@ -1,0 +1,6 @@
+﻿# Ignore local environment and caches
+.env
+*.pyc
+__pycache__/
+venv/
+*.sqlite3
